@@ -74,5 +74,14 @@
                  Width="300"/>
         </StackPanel>
 
+        <Button x:Name="btn_authoriz"
+                Content="Войти"
+                FontSize="30"
+                Margin="40, 0"
+                Grid.Column="2" Grid.ColumnSpan="3"
+                Grid.Row="4"
+                Height="50"
+                Click="btn_authoriz_Click"/>
+
     </Grid>
 </Window>

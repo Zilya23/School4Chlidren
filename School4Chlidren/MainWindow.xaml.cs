@@ -24,5 +24,11 @@ namespace School4Chlidren
         {
             InitializeComponent();
         }
+
+        private void btn_authoriz_Click(object sender, RoutedEventArgs e)
+        {
+            var login = tb_login.Text.Trim();
+            var pass = pb_password.Password.Trim();
+        }
     }
 }

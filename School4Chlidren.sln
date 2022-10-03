@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School4Chlidren", "School4Chlidren\School4Chlidren.csproj", "{13CB84FC-3B5E-43A0-BDA7-1D708E17B8A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B354643A-A3B7-4426-8FE6-9E8F966DA30E} = {B354643A-A3B7-4426-8FE6-9E8F966DA30E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cora", "Cora\Cora.csproj", "{B354643A-A3B7-4426-8FE6-9E8F966DA30E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{13CB84FC-3B5E-43A0-BDA7-1D708E17B8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13CB84FC-3B5E-43A0-BDA7-1D708E17B8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13CB84FC-3B5E-43A0-BDA7-1D708E17B8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B354643A-A3B7-4426-8FE6-9E8F966DA30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B354643A-A3B7-4426-8FE6-9E8F966DA30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B354643A-A3B7-4426-8FE6-9E8F966DA30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B354643A-A3B7-4426-8FE6-9E8F966DA30E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
