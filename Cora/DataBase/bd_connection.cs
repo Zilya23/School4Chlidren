@@ -8,6 +8,6 @@ namespace Cora.DataBase
 {
     public class bd_connection
     {
-        //public static KinoKradEntities connection = new KinoKradEntities();
+        public static School4CEntities connection = new School4CEntities();
     }
 }

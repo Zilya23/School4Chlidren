@@ -14,17 +14,23 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using School4Chlidren.Pages;
 
-namespace School4Chlidren
+namespace School4Chlidren.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AuthorizationPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AuthorizationPage : Page
     {
-        public MainWindow()
+        public AuthorizationPage()
         {
             InitializeComponent();
-            auto_reg.NavigationService.Navigate(new AuthorizationPage());
         }
+        private void btn_authoriz_Click(object sender, RoutedEventArgs e)
+        {
+            var login = tb_login.Text.Trim();
+            var pass = pb_password.Password.Trim();
+            NavigationService.Navigate(new HeadTeacherMainPage());
+        }
+
     }
 }
